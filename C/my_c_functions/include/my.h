@@ -1,0 +1,26 @@
+#ifndef __MY_H__
+#define __MY_H__
+
+#include <stdio.h>
+#include <dirent.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+void my_putchar(char c);
+void my_putstr(const char *str);
+int my_strlen(const char *str);
+int my_getnbr(const char *str);
+void my_putnbr(int nb);
+void my_isneg(int nb);
+void my_swap(int *a, int *b);
+char *my_strcpy(char *dest, const char *src);
+char *my_strncpy(char *dest, const char *src, int n);
+int my_strcmp(const char *s1, const char *s2);
+int my_strncmp(const char *s1, const char *s2, int n);
+char *my_strdup(const char *src);
+char *my_strcat(char *dest, const char *src);
+char *my_strncat(char *dest, const char *src, int nb);
+char *my_strstr(char *str, const char *to_find);
+
+#endif
