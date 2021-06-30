@@ -15,5 +15,8 @@ my_repository
     └───my_rle  ->  Algorithm that compresses a string of characters
 │   
 └───Shell
-    └───my_bash_game  ->  Creation of a turn-based strategy game of the RPG type under Unix   
+    └───my_bash_game  ->  Creation of a turn-based strategy game of the RPG type under Unix
+│   
+└───Python
+    └───my_speech_translator  -> Program who create an audio file in a language chosen by the user and translate it in another language
 ```
